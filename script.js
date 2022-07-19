@@ -55,7 +55,10 @@ function removeInput() {
 }
 
 async function getInputValue() {
-  const value = document.querySelector("input").value;
+  const value = document
+    .querySelector("input")
+    .value.replace(/\s+/g, "")
+    .toLowerCase();
   if (value === "help" || value === "ls") {
     trueValue(value);
     createCode("help", "for a list of commands");
