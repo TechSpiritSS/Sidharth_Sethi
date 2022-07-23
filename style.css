@@ -59,7 +59,7 @@ body {
   max-height: 95vh;
   overflow: hidden;
   border-radius: 6px;
-  border: 1px solid rgb(177, 10, 10);
+  border: 1px solid rgb(212, 12, 12);
   margin: 20px;
   cursor: text;
 }
@@ -70,7 +70,7 @@ body {
   text-align: center;
   width: 100%;
   height: 45px;
-  background-color: #480032;
+  background-color: #faa094ff;
   padding: 0 6px;
   cursor: default;
 }
@@ -109,7 +109,7 @@ div.title {
 
 .menu h1 {
   font-size: 20px;
-  color: #09ff00;
+  color: #000000;
 }
 
 @media (max-width: 500px) {
@@ -133,18 +133,26 @@ div.title {
   height: 100%;
   overflow: auto;
   padding: 8px;
-  background-color: #2e0249;
+  background-color: #ffdde2ff;
 }
 
 p {
   font-size: var(--font-size);
-  color: #adeec8;
+  color: #000000;
   padding: 8px 0;
+}
+
+.bottom-bar {
+  background-color: #fc766aff;
+}
+
+.bottom-name {
+  color: #000000;
 }
 
 h2 {
   font-size: var(--font-size);
-  color: #fbb454;
+  color: #008c76ff;
 }
 
 p.code {
@@ -158,7 +166,7 @@ span.text {
 }
 
 p.path {
-  color: #f7ec09;
+  color: #240a8e;
 }
 
 p.path span {
@@ -170,7 +178,7 @@ p.path span + span {
 }
 
 .success {
-  color: #f24a72;
+  color: #008c76ff;
 }
 
 .error {
@@ -209,7 +217,7 @@ input:focus {
 }
 
 .icone {
-  color: #06ff00;
+  color: #008c76ff;
   padding-right: 8px;
 }
 
